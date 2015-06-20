@@ -4,7 +4,8 @@
 	<title>GOOD JOB!</title>
 </head>
 <body>
-<p>You've solved the password, now you have to fill this form.</p>
+<div align="center">
+<p><h1>You've solved the password, now you have to fill this form.</h1></p>
 <?php
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
@@ -39,5 +40,6 @@ else                /* send the submitted data */
         }
     }  
 ?>
+</div>
 </body>
 </html>
