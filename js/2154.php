@@ -22,7 +22,7 @@ if ($action=="")    /* display the contact form */
     <input type="submit" value="Send email"/>
     </form>
     <?php
-    } 
+    }
 else                /* send the submitted data */
     {
     $name=$_REQUEST['name'];
@@ -30,15 +30,14 @@ else                /* send the submitted data */
     $message=$_REQUEST['message'];
     if (($name=="")||($email=="")||($message==""))
         {
-        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-        }
-    else{        
+        echo "Please fill in all feilds.";
+    }else{
         $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your contact form";
         mail("tixenk@hotmail.com", $subject, $message, $from);
         echo "Email sent!";
         }
-    }  
+    }
 ?>
 </div>
 </body>
