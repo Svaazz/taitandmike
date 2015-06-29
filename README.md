@@ -8,4 +8,4 @@ codingd0g for the button styles.
 - Follow: [@Programminglover](https://instagram.com/programminglover)
 - Follow: [Tait Hoyem's GitHub](https://github.com/TTWNO)
 
-######This is an Easter Egg for one thousand followers.
+######This is a contest for one thousand followers.
